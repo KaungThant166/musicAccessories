@@ -1,0 +1,389 @@
+@media (max-width: 1100px) {
+    .home-container .head-one {
+        font-size: 7.5rem;
+        line-height: 7.5rem;
+    }
+    .home-container .home-content img {
+        right: 150px;
+        top: 40px;
+        width: 250px;
+    }
+    .sm-cardHeader {
+        line-height: 2.5rem;
+        font-size: 2.5rem;
+    }
+    .wire {
+        font-size: 3rem;
+    }
+    .home-container h2 {
+        padding-top: 50px;
+    }
+    .home-container .home-content {
+        padding: 30px 80px 50px;
+    }
+    .home-container .home-content button {
+        margin-top: 20px;
+    }
+    .sm-card .sm-card-content {
+        padding: 10px;
+    }
+    #sm-card1 img {
+        right: 0px;
+    }
+    #sm-card2 img {
+        width: 200px;
+        top: 100px;
+        right: -50px;
+    }
+    #sm-card3 img {
+        width: 100px;
+        bottom: 0;
+        right: 0px;
+    }
+    #big-card2 img {
+        width: 230px;
+        bottom: 0;
+        right: 10px;
+    }
+    #big-card1 img {
+        width: 140px;
+        top: 50px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .home-container .head-one {
+        font-size: 5.5rem;
+        line-height: 5.5rem;
+    }
+    .shop-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #shop-container1 {
+        flex-direction: column-reverse;
+    }
+    .sm-container {
+        width: 100%;
+    }
+    .sm-container .sm-card {
+        flex-basis: 48%;
+    }
+    .big-card {
+        width: 100%;
+        height: 300px;
+        margin: 30px 30px;
+    }
+    #big-card2 .big-card-content {
+        padding: 70px 0px 50px 100px;
+    }
+    #big-card2 img {
+        width: 300px;
+        bottom: -20px;
+        right: 60px;
+    }
+    .sm-card .sm-card-content {
+        padding: 30px;
+    }
+    #sm-card2 img {
+        width: 260px;
+        top: 30px;
+    }
+    #big-card1 .big-card-content {
+        padding: 50px 0px 70px 90px;
+    }
+    #big-card1 img {
+        width: 200px;
+        top: 35px;
+        right: 40px;
+    }
+    #sm-card3 img {
+        width: 150px;
+    }
+    #sm-card4 img {
+        width: 200px;
+    }
+    .summer-container .summer-content2 h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .summer-container .summer-content1 img {
+        width: 250px;
+        top: -25%;
+    }
+    .summer-sale {
+        padding: 50px 0px;
+    }
+    #summer-sale2 img {
+        position: absolute;
+        width: 220px;
+        right: -200px;
+    }
+}
+
+@media (max-width: 800px) {
+    #home {
+        padding-top: 50px;
+    }
+    /* #navbar .navbar-container {
+        transition: all 0.5s ease;
+    } */
+    #navbar {
+        background-color: rgb(229, 229, 229);
+        overflow: hidden;
+    }
+    #navbar .navbar-container .navbar-brand img {
+        width: 150px;
+        height: 40px;
+        object-fit: cover;
+        padding-top: 0px;
+    }
+    #navbar .navbar-container .navbar-brand .humburger {
+        display: block;
+    }
+    #navbar i {
+        font-size: 28px;
+    }
+    .navbar-container .navbar-icon {
+        display: none;
+    }
+    #navbar .navbar-container .navbar-content {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+    .navbar-content .navbar-menu {
+        width: 100%;
+        /* padding-top: 30px; */
+        flex-direction: column;
+        /* display: none; */
+        height: 0;
+    }
+    .navbar-menu.active {
+        transition: all 0.5s ease;
+        height: 300px;
+        /* display: block; */
+    }
+    .navbar-content .navbar-menu li {
+        width: 100%;
+        padding: 15px 25px;
+    }
+    .navbar-content .navbar-menu li:hover {
+        background-color: #fff;
+    }
+    #navbar .navbar-container .navbar-brand {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        transition: all 0.4s ease;
+    }
+    #navbar .navbar-container .navbar-brand>.icon-box {
+        display: block;
+    }
+    #navbar .navbar-container .navbar-brand>.icon-box i {
+        padding: 0 10px;
+    }
+    .home-container .home-content img {
+        top: 50px;
+        right: 40px;
+        width: 200px;
+        object-fit: cover;
+        transform: rotate(20deg);
+        position: absolute;
+        box-shadow: 10px;
+    }
+    .home-container .head-one {
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+    }
+    #products .products-container .products-box {
+        flex-basis: 48%;
+    }
+    #footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    #footer .footer-container ul {
+        padding: 20px 0px;
+    }
+    #blog .blog-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px) {
+    .home-container .head-one {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .home-container .home-content img {
+        top: 80px;
+        right: 0px;
+        width: 150px;
+    }
+    .home-container .home-content {
+        padding: 30px 50px 30px;
+    }
+    .home-container h2 {
+        padding-top: 20px;
+    }
+    #big-card2 img {
+        width: 200px;
+        bottom: 20px;
+        right: 30px;
+    }
+    #big-card2 .big-card-content {
+        padding: 70px 0px 50px 20px;
+    }
+    .sm-container {
+        flex-direction: column;
+    }
+    .sm-container .sm-card {
+        margin: 15px 0;
+    }
+    #about .about-container {
+        flex-wrap: wrap;
+    }
+    #about .about-container .about-box {
+        flex-basis: 48%;
+        padding: 10px;
+    }
+    .about-container {
+        justify-content: center;
+        align-items: center;
+    }
+    #big-card1 img {
+        width: 150px;
+        top: 50px;
+        right: 20px;
+    }
+    #big-card1 .big-card-content {
+        padding: 50px 0px 50px 40px;
+    }
+    .big-card {
+        margin: 15px 0;
+    }
+    .sm-cardHeader {
+        line-height: 3.5rem;
+        font-size: 3.5rem;
+    }
+    #sm-card2 img {
+        width: 260px;
+        top: 20px;
+        right: 10px;
+    }
+    #sm-card1 img {
+        right: 30px;
+    }
+    .summer-sale .summer-container {
+        padding: 0px 10px;
+    }
+    .summer-container .summer-content2,
+    .summer-container .summer-content1 {
+        font-size: 15px;
+    }
+    .summer-container .summer-content1 h1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    .summer-container .summer-content1 img {
+        width: 180px;
+        top: -20%;
+    }
+    #summer-sale2 img {
+        width: 180px;
+        left: 120px;
+    }
+}
+
+@media (max-width:400px) {
+    .home-container .head-one {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .wire {
+        font-size: 2rem;
+    }
+    .home-container .home-content {
+        padding: 30px 30px 30px;
+    }
+    .home-container .home-content .beat {
+        font-size: 16px;
+    }
+    .home-container .home-content img {
+        top: 50px;
+        right: 0px;
+        width: 120px;
+    }
+    #home button {
+        width: 120px;
+        padding: 10px 5px;
+    }
+    #big-card2 img {
+        width: 180px;
+        bottom: 20px;
+        right: 0px;
+    }
+    #sm-card2 img {
+        right: -50px;
+    }
+    #big-card1 img {
+        width: 120px;
+    }
+    .summer-container .summer-content2,
+    .summer-container.summer-content2 {
+        font-size: 10px;
+    }
+    .summer-container .summer-content1 h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .summer-container .summer-content1 img {
+        width: 150px;
+        top: -30px;
+        left: 20px;
+    }
+    .summer-container .summer-content1 {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+    #summer-sale2 img {
+        width: 140px;
+        left: 120px;
+    }
+    .summer-sale {
+        padding: 20px 0px;
+    }
+    .summer-sale .summer-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    #navbar .navbar-container .navbar-brand>.icon-box {
+        display: flex;
+        padding: 0 10px;
+    }
+    #about .about-container .about-box {
+        flex-basis: 49%;
+        padding: 0px;
+        margin: 10px 5px;
+        /* padding: 10px; */
+        /* margin: 20px; */
+    }
+    #footer {
+        padding: 0;
+    }
+    #summer-sale2 #summer-container2 {
+        flex-direction: column-reverse;
+    }
+    #summer-sale2 img {
+        width: 120px;
+        left: 20px;
+        top: 130px;
+    }
+}
